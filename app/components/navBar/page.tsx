@@ -1,4 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import React from "react";
+import {
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Button,
+} from "@material-tailwind/react";
 
 const NavBar = () => {
   return (
@@ -6,16 +16,29 @@ const NavBar = () => {
       <Link href="/" className="py-3">
         WindoFix
       </Link>
-      <div className="flex">
+      <div className="flex items-center">
+        {" "}
         <Link
           href="/"
           className="hover:bg-slate-100 p-3 transition duration-300"
         >
           Home
         </Link>
-        <button className="hover:bg-slate-100 p-3 transition duration-300">
-          Services
-        </button>
+        <Menu>
+          <MenuHandler>
+            <Button>Services</Button>
+          </MenuHandler>
+          <MenuList>
+            <MenuItem>
+              {" "}
+              <Link href="/doors"> Doors</Link>
+            </MenuItem>
+            <MenuItem>
+              {" "}
+              <Link href="/exterior-roller-blinds">Exterior Roller Blinds</Link>
+            </MenuItem>
+          </MenuList>
+        </Menu>
         <Link
           href="/about-us"
           className="hover:bg-slate-100 p-3 transition duration-300"
