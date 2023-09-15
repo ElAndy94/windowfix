@@ -37,7 +37,6 @@ const NavBar = () => {
               {" "}
               <Link href="/exterior-roller-blinds">Exterior Roller Blinds</Link>
             </MenuItem>
-            <MenuItem>Menu Item 3</MenuItem>
           </MenuList>
         </Menu>
         <Link
