@@ -28,8 +28,8 @@ const NavBar = () => {
           <MenuHandler>
             <Button>Services</Button>
           </MenuHandler>
-          <MenuList>
-            <MenuItem>
+          <MenuList className="mt--1 outline-none flex flex-col bg-slate-100">
+            <MenuItem className="border-b-2">
               {" "}
               <Link href="/doors"> Doors</Link>
             </MenuItem>
