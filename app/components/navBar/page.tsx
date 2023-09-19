@@ -37,6 +37,22 @@ const NavBar = () => {
               {" "}
               <Link href="/exterior-roller-blinds">Exterior Roller Blinds</Link>
             </MenuItem>
+            <MenuItem>
+              {" "}
+              <Link href="/glass-curtains">Glass Curtains</Link>
+            </MenuItem>
+            <MenuItem>
+              {" "}
+              <Link href="/interior-blinds">Interior Blinds</Link>
+            </MenuItem>
+            <MenuItem>
+              {" "}
+              <Link href="/mosquito-nets">Mosquito Nets</Link>
+            </MenuItem>
+            <MenuItem>
+              {" "}
+              <Link href="/windows">Windows</Link>
+            </MenuItem>
           </MenuList>
         </Menu>
         <Link
