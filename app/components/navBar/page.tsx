@@ -9,30 +9,36 @@ import {
   MenuItem,
   Button,
 } from "@material-tailwind/react";
+import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <nav className="bg-[#6B6B6B]">
-      <div className="container mx-auto flex justify-between text-[#C7C7C7] ">
+    <nav className="">
+      <div className="container mx-auto flex justify-between text-xs md:text-base">
         <Link href="/" className="py-3">
-          WindoFix
+          <Image
+            src={"/assets/Windofix_Logo.png"}
+            alt="Windo Fix Logo"
+            width={70}
+            height={70}
+          />
         </Link>
         <div className="flex items-center">
           {" "}
           <Link
             href="/"
-            className="hover:hover:text-[#FEFEFE] p-3 transition duration-300"
+            className="hover:text-[#65BDDF] p-3 transition duration-300"
           >
             Home
           </Link>
           <Menu>
             <MenuHandler>
-              <Button className="hover:text-[#FEFEFE]">Services</Button>
+              <Button className="hover:text-[#65BDDF]">Services</Button>
             </MenuHandler>
             <MenuList className="mt--1 outline-none flex flex-col bg-slate-100">
               <MenuItem className="border-b-2">
                 {" "}
-                <Link className="hover:text-[#FEFEFE]" href="/doors">
+                <Link className="hover:text-[#65BDDF]" href="/doors">
                   {" "}
                   Doors
                 </Link>
@@ -63,13 +69,13 @@ const NavBar = () => {
           </Menu>
           <Link
             href="/about-us"
-            className="hover:text-[#FEFEFE] p-3 transition duration-300"
+            className="hover:text-[#65BDDF] p-3 transition duration-300"
           >
             About Us
           </Link>
           <Link
             href="/contact-us"
-            className="hover:text-[#FEFEFE] p-3 transition duration-300"
+            className="hover:text-[#65BDDF] p-3 transition duration-300"
           >
             Contact Us
           </Link>
