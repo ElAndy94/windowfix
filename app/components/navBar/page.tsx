@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <nav className="">
+    <nav>
       <div className="container mx-auto flex justify-between text-xs md:text-base">
         <Link href="/" className="py-3">
           <Image
