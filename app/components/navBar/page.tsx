@@ -14,13 +14,15 @@ import Image from "next/image";
 const NavBar = () => {
   return (
     <nav>
-      <div className="container mx-auto flex justify-between text-xs md:text-base">
-        <Link href="/" className="py-3">
+      <div className="container mx-auto flex justify-between text-xs md:text-base items-center">
+        <Link href="/" className="py-3 md:w-24 w-16">
           <Image
             src={"/assets/Windofix_Logo.png"}
             alt="Windo Fix Logo"
-            width={70}
-            height={70}
+            width={75}
+            height={75}
+            priority={true}
+            style={{ width: "100%", height: "auto" }}
           />
         </Link>
         <div className="flex items-center">
@@ -33,9 +35,11 @@ const NavBar = () => {
           </Link>
           <Menu>
             <MenuHandler>
-              <Button className="hover:text-[#65BDDF]">Services</Button>
+              <Button className="hover:text-[#65BDDF] text-xs md:text-base">
+                Services
+              </Button>
             </MenuHandler>
-            <MenuList className="mt--1 outline-none flex flex-col bg-slate-100">
+            <MenuList className="mt--1 outline-none flex flex-col bg-slate-100 text-xs md:text-base">
               <MenuItem className="border-b-2">
                 {" "}
                 <Link className="hover:text-[#65BDDF]" href="/doors">
