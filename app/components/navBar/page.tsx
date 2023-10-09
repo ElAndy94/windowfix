@@ -11,6 +11,9 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 
+import { AiFillFacebook } from "react-icons/ai";
+import { FaInstagramSquare } from "react-icons/fa";
+
 const NavBar = () => {
   return (
     <nav>
@@ -82,6 +85,15 @@ const NavBar = () => {
             className="hover:text-[#65BDDF] p-3 transition duration-300"
           >
             Contact Us
+          </Link>
+          <Link href={"https://www.facebook.com/windofix/"} target="blank">
+            <AiFillFacebook size={30} className="text-[#3D5A98]" />
+          </Link>
+          <Link
+            href={"https://www.instagram.com/windofix/?hl=en"}
+            target="blank"
+          >
+            <FaInstagramSquare size={30} className="text-[#FA0074]" />
           </Link>
         </div>
       </div>
