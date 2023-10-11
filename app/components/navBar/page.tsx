@@ -87,13 +87,13 @@ const NavBar = () => {
             Contact Us
           </Link>
           <Link href={"https://www.facebook.com/windofix/"} target="blank">
-            <AiFillFacebook size={30} className="text-[#3D5A98]" />
+            <AiFillFacebook size={25} className="text-[#3D5A98]" />
           </Link>
           <Link
             href={"https://www.instagram.com/windofix/?hl=en"}
             target="blank"
           >
-            <FaInstagramSquare size={30} className="text-[#FA0074]" />
+            <FaInstagramSquare size={25} className="text-[#FA0074]" />
           </Link>
         </div>
       </div>
