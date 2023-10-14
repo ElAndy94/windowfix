@@ -38,7 +38,7 @@ const NavBar = () => {
           </Link>
           <Menu>
             <MenuHandler>
-              <Button className="hover:text-[#65BDDF] text-xs md:text-base">
+              <Button className="hover:text-[#65BDDF] text-xs md:text-base text-black font-normal">
                 Services
               </Button>
             </MenuHandler>
