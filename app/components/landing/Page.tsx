@@ -4,15 +4,14 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Landing = () => {
   return (
     <section
-      className=" bg-center flex items-center"
+      className="bg-center flex items-center rounded-lg"
       style={{
         backgroundImage: 'url("/assets/landing1.webp")',
         backgroundSize: "cover",
-        // backgroundRepeat: "no-repeat",
         height: "calc(100vh - 85px)",
       }}
     >
-      <div className="bg-white bg-opacity-90 p-6 mx-auto max-w-md rounded-lg text-center">
+      <div className="bg-slate-100 bg-opacity-90 p-6 mx-auto max-w-md rounded-lg text-center">
         <Link
           href="https://api.whatsapp.com/send?phone=35054080732"
           target="_blank"
