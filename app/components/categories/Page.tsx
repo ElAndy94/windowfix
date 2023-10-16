@@ -9,7 +9,7 @@ const CategoriesPage = () => {
         <h3 className="text-lg text-center font-bold mb-9">
           OUR TOP THREE PRIORITIES
         </h3>
-        <div className="flex md:flex-row flex-col text-center justify-around my-3">
+        <div className="flex md:flex-row flex-col text-center justify-around my-3 md:gap-0 gap-6">
           <div>
             <BsFillPersonFill className={"text-5xl mx-auto mb-4"} />
             <p>EXCELLENT CUSTOMER SERVICE</p>
