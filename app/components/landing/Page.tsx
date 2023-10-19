@@ -7,7 +7,7 @@ const Landing = () => {
       className="bg-center flex items-center mx-auto py-10"
       style={{
         backgroundImage: 'url("/assets/landing1.webp")',
-        // backgroundSize: "cover",
+        backgroundSize: "cover",
         // height: "calc(100vh - 85px)",
       }}
     >
