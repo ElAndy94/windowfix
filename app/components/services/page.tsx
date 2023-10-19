@@ -48,7 +48,7 @@ const Services = () => {
       <div className="bg-[url('/assets/glass1.webp')] bg-no-repeat min-h-[260px] md:h-[290px] bg-cover relative text-white font-bold">
         <span className="absolute top-0 left-0 w-full h-full bg-[rgb(0,0,0,10%)]"></span>
         <Link
-          href="/windows"
+          href="/glass-curtains"
           className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-lg tracking-widest hover:text-2xl duration-300"
         >
           <p className="text-center">GLASS</p>
