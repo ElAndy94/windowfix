@@ -5,8 +5,8 @@ const ReviewsPage = () => {
         <h3 className="text-center mt-7 font-bold text-4xl tracking-wider">
           Reviews
         </h3>
-        <div className="flex mt-16 justify-around">
-          <div className="bg-[rgb(0,0,0,50%)] w-[300px] text-center py-5 rounded-[40px]">
+        <div className="flex md:flex-row flex-col gap-4 md:gap-8 mt-16 md:justify-around">
+          <div className="bg-[rgb(0,0,0,50%)] md:w-[300px] mx-2 text-center py-5 rounded-[40px]">
             <h4 className="font-bold mb-2">Michelle</h4>
             <p className="italic font-serif px-7 tracking-tight">
               {
@@ -14,7 +14,7 @@ const ReviewsPage = () => {
               }
             </p>
           </div>
-          <div className="bg-[rgb(0,0,0,50%)] w-[300px] text-center py-5 rounded-[40px]">
+          <div className="bg-[rgb(0,0,0,50%)] md:w-[300px] mx-2 text-center py-5 rounded-[40px]">
             <h4 className="font-bold mb-2">Kenneth</h4>
             <p className="italic font-serif px-7 tracking-tight">
               {
@@ -22,7 +22,7 @@ const ReviewsPage = () => {
               }
             </p>
           </div>
-          <div className="bg-[rgb(0,0,0,50%)] w-[300px] text-center py-5 rounded-[40px]">
+          <div className="bg-[rgb(0,0,0,50%)] md:w-[300px] mx-2 text-center py-5 rounded-[40px]">
             <h4 className="font-bold mb-2">Louisa</h4>
             <p className="italic font-serif px-7 tracking-tight">
               {
@@ -31,7 +31,7 @@ const ReviewsPage = () => {
             </p>
           </div>
         </div>
-        <div className="mt-14 mb-[100px] mx-auto max-w-screen-lg text-center bg-[rgb(0,0,0,50%)] py-5 rounded-[40px]">
+        <div className="md:mt-14 mt-5 mb-[100px] mx-2 text-center bg-[rgb(0,0,0,50%)] py-5 rounded-[40px]">
           <h4 className="font-bold mb-2">Dale</h4>
           <p className="italic px-16 tracking-tight font-serif">
             {
