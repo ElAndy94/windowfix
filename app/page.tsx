@@ -5,6 +5,7 @@ import Landing from "./components/landing/Page";
 import CategoriesPage from "./components/categories/Page";
 import Services from "./components/services/page";
 import ReviewsPage from "./components/reviews/page";
+import FooterPage from "./components/footer/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <CategoriesPage />
       <Services />
       <ReviewsPage />
+      <FooterPage />
     </main>
   );
 }
