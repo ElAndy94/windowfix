@@ -3,9 +3,9 @@ import Link from "next/link";
 const FooterPage = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section>
-      <div>
-        <p>
+    <section className="relative">
+      <div className="bg-[#3AC4FE] py-4">
+        <p className="text-center text-sm">
           &copy; {currentYear} Widnowfix LTD |
           <Link
             href={
@@ -17,6 +17,7 @@ const FooterPage = () => {
           </Link>
         </p>
       </div>
+      <span className="bg-[#ED5829] md:absolute top-0 right-0 bg-none w-1/4 h-full"></span>
     </section>
   );
 };
