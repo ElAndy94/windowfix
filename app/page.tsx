@@ -14,7 +14,6 @@ export default function Home() {
       <CategoriesPage />
       <Services />
       <ReviewsPage />
-      <FooterPage />
     </main>
   );
 }
