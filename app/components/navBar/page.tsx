@@ -41,8 +41,14 @@ const NavBar = () => {
                 Services
               </Button>
             </MenuHandler>
-            <MenuList className="mt--1 outline-none flex flex-col bg-slate-100 text-sm md:text-base">
-              <MenuItem className="border-b-2">
+            <MenuList className="md:mt-[13px] mt-[-3px] outline-none flex flex-col bg-slate-100 text-sm md:text-base">
+              <MenuItem className="border-b-2 pb-1 mb-1">
+                {" "}
+                <Link className="hover:text-[#65BDDF]" href="/windows">
+                  Windows
+                </Link>
+              </MenuItem>
+              <MenuItem className="border-b-2 pb-1 mb-1">
                 {" "}
                 <Link className="hover:text-[#65BDDF]" href="/doors">
                   {" "}
@@ -66,10 +72,6 @@ const NavBar = () => {
               <MenuItem>
                 {" "}
                 <Link href="/mosquito-nets">Mosquito Nets</Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link href="/windows">Windows</Link>
               </MenuItem>
             </MenuList>
           </Menu>
