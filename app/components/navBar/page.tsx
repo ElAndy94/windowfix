@@ -55,23 +55,32 @@ const NavBar = () => {
                   Doors
                 </Link>
               </MenuItem>
-              <MenuItem>
+              <MenuItem className="border-b-2 pb-1 mb-1">
                 {" "}
-                <Link href="/exterior-roller-blinds">
+                <Link
+                  className="hover:text-[#65BDDF]"
+                  href="/exterior-roller-blinds"
+                >
                   Exterior Roller Blinds
+                </Link>
+              </MenuItem>
+              <MenuItem className="border-b-2 pb-1 mb-1">
+                {" "}
+                <Link className="hover:text-[#65BDDF]" href="/glass-curtains">
+                  Glass Curtains
+                </Link>
+              </MenuItem>
+              <MenuItem className="border-b-2 pb-1 mb-1">
+                {" "}
+                <Link className="hover:text-[#65BDDF]" href="/interior-blinds">
+                  Interior Blinds
                 </Link>
               </MenuItem>
               <MenuItem>
                 {" "}
-                <Link href="/glass-curtains">Glass Curtains</Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link href="/interior-blinds">Interior Blinds</Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link href="/mosquito-nets">Mosquito Nets</Link>
+                <Link className="hover:text-[#65BDDF]" href="/mosquito-nets">
+                  Mosquito Nets
+                </Link>
               </MenuItem>
             </MenuList>
           </Menu>
