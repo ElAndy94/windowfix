@@ -8,7 +8,6 @@ const Landing = () => {
       style={{
         backgroundImage: 'url("/assets/landing1.webp")',
         backgroundSize: "cover",
-        // height: "calc(100vh - 85px)",
       }}
     >
       <div className="mx-auto">
