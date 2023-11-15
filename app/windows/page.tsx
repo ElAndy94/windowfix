@@ -11,7 +11,7 @@ const Windows = () => {
         }}
       >
         <div className="pt-24">
-          <div className="mb-10 w-[420px] mx-auto">
+          <div className="mb w-[420px] mx-auto">
             <h1 className="text-7xl tracking-widest font-light pt-28">
               WINDOWS
             </h1>
@@ -22,7 +22,7 @@ const Windows = () => {
               types of glass.
             </p>
           </div>
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-center gap-8 mt-10">
             <div>
               <Image
                 src="/assets/windows2.webp"
