@@ -4,25 +4,25 @@ const Windows = () => {
   return (
     <section className="mx-auto text-center text-white">
       <div
-        className="h-screen"
         style={{
           backgroundImage: 'url("/assets/windows5.webp")',
           // backgroundSize: "cover",
+          paddingBottom: "50px",
         }}
       >
         <div className="pt-24">
-          <div className="mb w-[420px] mx-auto">
-            <h1 className="text-7xl tracking-widest font-light pt-28">
+          <div className="mb md:w-[420px] mx-auto">
+            <h1 className="md:text-7xl text-4xl tracking-widest font-light pt-28">
               WINDOWS
             </h1>
-            <p className="mt-5 mx-auto font-thin text-left">
+            <p className="mt-5 mx-auto font-thin md:text-left text-center">
               Our windows are designed, manufactured and installed with perfect
               precision to give your house the best look possible. Choose from
               PVC or Aluminium window frames as well as a range of different
               types of glass.
             </p>
           </div>
-          <div className="flex justify-center gap-8 mt-10">
+          <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 gap-4 mt-10">
             <div>
               <Image
                 src="/assets/windows2.webp"
