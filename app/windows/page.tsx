@@ -2,12 +2,13 @@ import Image from "next/image";
 
 const Windows = () => {
   return (
-    <section className="mx-auto text-center text-white">
+    <section className="mx-auto text-center text-white h-[calc(100vh-136px)]">
       <div
         style={{
           backgroundImage: 'url("/assets/windows5.webp")',
           // backgroundSize: "cover",
           paddingBottom: "50px",
+          height: "100%",
         }}
       >
         <div className="pt-24">
