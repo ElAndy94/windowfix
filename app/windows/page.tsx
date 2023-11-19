@@ -1,8 +1,9 @@
 import Image from "next/image";
+import FooterPage from "../components/footer/page";
 
 const Windows = () => {
   return (
-    <section className="mx-auto text-center text-white  h-screen">
+    <section className="mx-auto text-center text-white  md:h-screen">
       <div
         style={{
           backgroundImage: 'url("/assets/windows5.webp")',
@@ -51,6 +52,7 @@ const Windows = () => {
           </div>
         </div>
       </div>
+      <FooterPage />
     </section>
   );
 };

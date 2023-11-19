@@ -21,7 +21,6 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning={true}>
         <NavBar />
         {children}
-        <FooterPage />
       </body>
     </html>
   );
