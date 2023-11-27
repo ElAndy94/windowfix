@@ -7,7 +7,6 @@ const Windows = () => {
       <div
         style={{
           backgroundImage: 'url("/assets/windows5.webp")',
-          // backgroundSize: "cover",
           paddingBottom: "50px",
           height: "100%",
         }}
