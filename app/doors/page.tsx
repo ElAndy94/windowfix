@@ -1,5 +1,13 @@
 import Image from "next/image";
 import FooterPage from "../components/footer/page";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Doors",
+  description: `We offer made to measure sliding glass doors which are built to
+  transform any room you add them to. From balconies and patios to
+  bedrooms and kitchens, make sure to improve the overall design"`,
+};
 
 const Doors = () => {
   return (
