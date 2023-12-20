@@ -13,8 +13,10 @@ const Windows = () => {
       <div
         style={{
           backgroundImage: 'url("/assets/windows5.webp")',
+          background:
+            ' url("/assets/windows5.webp") center center cover no-repeat fixed',
           paddingBottom: "50px",
-          height: "100%",
+          // height: "100%",
         }}
       >
         <div className="pt-24">

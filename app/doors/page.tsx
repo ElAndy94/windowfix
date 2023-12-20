@@ -14,9 +14,14 @@ const Doors = () => {
     <section className="mx-auto text-center text-white  md:h-screen">
       <div
         style={{
-          backgroundImage: 'url("/assets/windows5.webp")',
+          // backgroundImage: 'url("/assets/doors5.webp")',
+          background:
+            "url('/assets/doors5.webp') no-repeat center center fixed",
           paddingBottom: "50px",
           height: "100%",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <div className="pt-24">
@@ -33,7 +38,7 @@ const Doors = () => {
           <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 gap-4 mt-10">
             <div>
               <Image
-                src="/assets/windows2.webp"
+                src="/assets/doors2.webp"
                 alt="picture of window"
                 width={300}
                 height={300}
@@ -41,7 +46,7 @@ const Doors = () => {
             </div>
             <div>
               <Image
-                src="/assets/windows3.webp"
+                src="/assets/doors3.webp"
                 alt="picture of window"
                 width={300}
                 height={300}
@@ -49,7 +54,7 @@ const Doors = () => {
             </div>
             <div>
               <Image
-                src="/assets/windows4.webp"
+                src="/assets/doors4.webp"
                 alt="picture of window"
                 width={300}
                 height={300}
