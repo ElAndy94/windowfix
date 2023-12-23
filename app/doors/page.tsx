@@ -11,14 +11,13 @@ export const metadata: Metadata = {
 
 const Doors = () => {
   return (
-    <section className="mx-auto text-center text-white  md:h-screen">
+    <section className="mx-auto text-center text-white md:h-screen">
       <div
         style={{
-          // backgroundImage: 'url("/assets/doors5.webp")',
-          background:
-            "url('/assets/doors5.webp') no-repeat center center fixed",
+          background: "url('/assets/doors5.webp') no-repeat fixed",
           paddingBottom: "50px",
-          height: "100%",
+          width: "100%",
+          height: "100vh",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
