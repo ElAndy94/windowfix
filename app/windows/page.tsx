@@ -16,7 +16,6 @@ const Windows = () => {
           background:
             ' url("/assets/windows5.webp") center center cover no-repeat fixed',
           paddingBottom: "50px",
-          // height: "100%",
         }}
       >
         <div className="pt-24">
