@@ -14,12 +14,10 @@ const Doors = () => {
     <section className="mx-auto text-center text-white md:h-screen">
       <div
         style={{
-          background: "url('/assets/doors5.webp') no-repeat fixed",
           paddingBottom: "50px",
-          width: "100%",
-          height: "100vh",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
+          background:
+            "url('/assets/doors5.webp') center center no-repeat fixed",
+
           backgroundSize: "cover",
         }}
       >
