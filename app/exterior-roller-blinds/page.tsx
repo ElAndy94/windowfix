@@ -12,16 +12,17 @@ const ExteriorRollerBlinds = () => {
     <section className="mx-auto text-center text-white  md:h-screen">
       <div
         style={{
-          backgroundImage: 'url("/assets/windows5.webp")',
-          background:
-            ' url("/assets/windows5.webp") center center cover no-repeat fixed',
+          backgroundImage: 'url("/assets/exterior1.webp")',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
           paddingBottom: "50px",
         }}
       >
         <div className="pt-24">
           <div className="mb md:w-[420px] mx-auto">
             <h1 className="md:text-7xl text-4xl tracking-widest font-light pt-28">
-              Exterior RollerBlinds
+              Exterior Roller Blinds
             </h1>
             <p className="mt-5 mx-auto font-thin md:text-left text-center">
               Keep the sun out of your house with our exterior roller blinds.
@@ -32,7 +33,7 @@ const ExteriorRollerBlinds = () => {
           <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 gap-4 mt-10">
             <div>
               <Image
-                src="/assets/windows2.webp"
+                src="/assets/exterior1.webp"
                 alt="picture of window"
                 width={300}
                 height={300}
