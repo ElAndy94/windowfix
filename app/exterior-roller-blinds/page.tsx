@@ -35,24 +35,24 @@ const ExteriorRollerBlinds = () => {
               <Image
                 src="/assets/exterior1.webp"
                 alt="picture of window"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
               />
             </div>
             <div>
               <Image
-                src="/assets/windows3.webp"
+                src="/assets/exterior1.webp"
                 alt="picture of window"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
               />
             </div>
             <div>
               <Image
-                src="/assets/windows4.webp"
+                src="/assets/exterior1.webp"
                 alt="picture of window"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
               />
             </div>
           </div>
