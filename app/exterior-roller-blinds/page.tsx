@@ -83,20 +83,28 @@ const ExteriorRollerBlinds = () => {
   return (
     <section className="mx-auto text-center text-white md:h-screen relative">
       <div
+        // style={{
+        //   backgroundImage: 'url("/assets/exterior1.webp")',
+        //   backgroundSize: "cover",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "center",
+        //   paddingBottom: "50px",
+        //   position: "relative",
+        // }}
         style={{
           backgroundImage: 'url("/assets/exterior1.webp")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          backgroundPosition: "center center",
           paddingBottom: "50px",
           position: "relative",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative pt-24">
-          <div className="mb md:w-screen mx-auto relative z-10">
-            <h1 className="md:text-7xl text-4xl tracking-widest font-light pt-28">
-              Exterior Roller Blinds
+          <div className="mb md:w-[60vw] mx-auto relative z-10">
+            <h1 className="md:text-7xl text-8xl tracking-widest leading-9 font-light pt-28">
+              EXTERIOR ROLLER BLINDS
             </h1>
             <p className="mt-5 mx-auto font-thin text-center">
               Keep the sun out of your house with our exterior roller blinds.
