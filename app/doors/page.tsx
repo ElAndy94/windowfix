@@ -19,6 +19,7 @@ const Doors = () => {
             "url('/assets/doors5.webp') center center no-repeat fixed",
 
           backgroundSize: "cover",
+          height: "100%",
         }}
       >
         <div className="pt-24">
