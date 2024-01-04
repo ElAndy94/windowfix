@@ -12,10 +12,12 @@ const Windows = () => {
     <section className="mx-auto text-center text-white  md:h-screen">
       <div
         style={{
-          backgroundImage: 'url("/assets/windows5.webp")',
-          background:
-            ' url("/assets/windows5.webp") center center cover no-repeat fixed',
           paddingBottom: "50px",
+          background:
+            "url('/assets/windows5.webp') center center no-repeat fixed",
+
+          backgroundSize: "cover",
+          height: "100%",
         }}
       >
         <div className="pt-24">
