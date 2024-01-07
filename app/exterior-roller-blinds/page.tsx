@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const ExteriorRollerBlinds = () => {
   return (
-    <section className="mx-auto text-center text-white md:h-screen relative">
+    <section className="mx-auto text-center text-white relative">
       <div
         style={{
           paddingBottom: "50px",
