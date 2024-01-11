@@ -1,4 +1,3 @@
-import Image from "next/image";
 import FooterPage from "../components/footer/page";
 import { Metadata } from "next";
 
@@ -9,20 +8,19 @@ export const metadata: Metadata = {
 
 const GlassCurtains = () => {
   return (
-    <section className="mx-auto text-center text-white h-screen relative">
+    <section className="mx-auto text-center text-white  h-screen">
       <div
         style={{
           paddingBottom: "50px",
           background:
-            "url('/assets/exterior1.webp') center center no-repeat fixed",
+            "url('/assets/windows5.webp') center center no-repeat fixed",
 
           backgroundSize: "cover",
           height: "100%",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative pt-24">
-          <div className="mb md:w-[60vw] mx-auto relative z-10">
+        <div className="pt-24">
+          <div className="mx-auto">
             <h1 className="md:text-7xl text-4xl md:tracking-widest leading-9 font-light pt-28">
               Glass Curtains
             </h1>
