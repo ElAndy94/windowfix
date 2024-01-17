@@ -21,11 +21,11 @@ const InteriorBlinds = () => {
         }}
       >
         <div className="pt-24">
-          <div className="mb md:w-[420px] mx-auto">
-            <h1 className="md:text-7xl text-4xl tracking-widest font-light pt-28">
-              InteriorBlinds
+          <div className="mb mx-auto">
+            <h1 className="md:text-7xl text-4xl  tracking-widest font-light pt-28">
+              INTERIOR BLINDS
             </h1>
-            <p className="mt-5 mx-auto font-thin md:text-left text-center">
+            <p className="mt-5 mx-auto md:w-[420px] font-thin md:text-left text-center">
               Choose from a range of interior blind designs and materials, all
               manufactured and fitted by us. Improve the overall appearance of
               any room by choosing the right style for you.
