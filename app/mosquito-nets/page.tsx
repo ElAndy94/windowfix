@@ -27,7 +27,7 @@ const MosquitoNets = () => {
             </h1>
             <p className="mt-5 mx-auto md:w-[420px] font-thin text-center md:text-left">
               When the days get warmer, the nights get packed with mosquitoes
-              roaming the house. Don't worry because we have you covered. Choose
+              roaming the house. Don’t worry because we have you covered. Choose
               from sliding, fixed, pleated, or roll-up nets to keep all types of
               bugs away from your home.
             </p>
