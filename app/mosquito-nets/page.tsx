@@ -13,8 +13,7 @@ const MosquitoNets = () => {
       <div
         style={{
           paddingBottom: "50px",
-          background:
-            "url('/assets/windows5.webp') center center no-repeat fixed",
+          background: "url('/assets/nets1.jpg') center center no-repeat fixed",
 
           backgroundSize: "cover",
           height: "100%",
