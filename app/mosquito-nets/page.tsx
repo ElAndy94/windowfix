@@ -24,7 +24,7 @@ const MosquitoNets = () => {
             <h1 className="md:text-7xl text-4xl  tracking-widest font-light pt-28">
               MOSQUITO NETS
             </h1>
-            <p className="mt-5 mx-auto md:w-[420px] font-thin text-center md:text-left">
+            <p className="mt-5 md:text-lg mx-auto md:w-[600px] font-thin text-center md:text-left">
               When the days get warmer, the nights get packed with mosquitoes
               roaming the house. Don’t worry because we have you covered. Choose
               from sliding, fixed, pleated, or roll-up nets to keep all types of
